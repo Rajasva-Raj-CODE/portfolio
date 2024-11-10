@@ -68,7 +68,7 @@ export const DATA = {
   work: [
     {
       company: "Own technology",
-      href: "https://owntechnologies.in/",
+      tag: "https://owntechnologies.in/",
       badges: [],
       location: "Remote",
       title: "Full Stack Developer",
@@ -142,7 +142,7 @@ export const DATA = {
   education: [
     {
       school: "ABES Engineering College",
-      // href: "https://buildspace.so",
+      href: "/",
       degree: "Master of Computer Application (MCA)",
       logoUrl: "/abes.jpeg",
       start: "2021",
@@ -150,7 +150,7 @@ export const DATA = {
     },
     {
       school: "Guru Gobind Singh Indraprastha University",
-      // href: "https://uwaterloo.ca",
+      href: "/",
       degree: "Bachelor of Computer Application (BCA)",
       logoUrl: "/ggsipu.png",
       start: "2017",

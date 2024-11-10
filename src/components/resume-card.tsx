@@ -14,7 +14,7 @@ interface ResumeCardProps {
   altText: string;
   title: string;
   subtitle?: string;
-  href?: string;
+  tag?: string;
   badges?: readonly string[];
   period: string;
   description?: string;
@@ -24,7 +24,7 @@ export const ResumeCard = ({
   altText,
   title,
   subtitle,
-  href,
+  tag,
   badges,
   period,
   description,
@@ -40,7 +40,7 @@ export const ResumeCard = ({
 
   return (
     <Link
-      href={href || "#"}
+      href={tag || "#"}
       className="block cursor-pointer"
       onClick={handleClick}
     >
