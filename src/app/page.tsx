@@ -87,7 +87,7 @@ export default function Page() {
             >
               <ResumeCard
                 key={education.school}
-                tag={education.tag}
+                tag={education.href}
                 logoUrl={education.logoUrl}
                 altText={education.school}
                 title={education.school}
