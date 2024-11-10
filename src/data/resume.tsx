@@ -49,18 +49,18 @@ export const DATA = {
 
       resume : {
         name: "Resume",
-        url: "",
+        url: "https://drive.google.com/file/d/1FDGcRKMXrYohKXnv7K__omfCQjzR9KKK/view",
         icon: Icons.resume,
         navbar: true,
       },
  
     
-      email: {
+      mail: {
         name: "Send Email",
         url: "mailto:7rajasvaraj@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },

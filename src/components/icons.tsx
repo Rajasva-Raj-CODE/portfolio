@@ -1,4 +1,4 @@
-import { GlobeIcon, MailIcon, FileTextIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, FileTextIcon, MailPlusIcon } from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -16,6 +16,8 @@ export const Icons = {
   ),
 
   resume: (props: IconProps) => <FileTextIcon {...props} />,
+
+  mail: (props: IconProps) => <MailIcon {...props} />,
 
   nextjs: (props: IconProps) => (
     <svg
