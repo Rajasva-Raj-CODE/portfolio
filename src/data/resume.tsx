@@ -162,7 +162,7 @@ export const DATA = {
     {
       title: "Doctor-Apponintment",
       href: "https://doctor-appointment-7x.vercel.app/",
-      // dates: "Jan 2024 - Feb 2024",
+      dates: "",
       active: true,
       description:
         " In this project, we will create an online appointment booking website for doctor or hospital. In this hospital website we will add multiple doctors and user can filter the doctor with their specialty. User and choose the date and time slot within 7 days window and book the appointment with the doctor",
@@ -184,13 +184,13 @@ export const DATA = {
         },
       ],
       image: "/doctorProject.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video:
+        "",
     },
     {
       title: "Flavoro_APP",
       href: "https://flavoro-react-js.vercel.app/",
-      // dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
         "This project is a sleek, feature-packed e-commerce application built with React, Redux Toolkit, and Tailwind CSS for a responsive and interactive user experience. It includes essential features like product search, filtering, add to cart, remove from cart, and secure checkout.",
@@ -214,7 +214,7 @@ export const DATA = {
         },
       ],
       image: "/foodAppProject.png",
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
+       video: "",
     },
   
   ],
